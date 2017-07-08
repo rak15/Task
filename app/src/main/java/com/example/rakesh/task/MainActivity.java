@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
       final   ImageView iconAbt = (ImageView) about_view.findViewById(R.id.tabIcon);
         final TextView textAbt = (TextView) about_view.findViewById(R.id.tabText);
         iconAbt.setImageResource(R.drawable.about_us);
-        textAbt.setText("ABOUT TEXT");
+        textAbt.setText("ABOUT US");
 
         vid.setCustomView(vid_view);
         img.setCustomView(img_view);
